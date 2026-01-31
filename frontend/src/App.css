@@ -1,0 +1,126 @@
+.app-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.app-title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.alert-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.alert-form input,
+.alert-form select {
+  flex: 1;
+  padding: 10px;
+}
+
+.alert-form button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.alert-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.alert-table th,
+.alert-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.alert-table th {
+  background: #f1f5f9;
+}
+
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 12px;
+  color: white;
+  font-size: 12px;
+}
+
+.status-active {
+  background: #2563eb;
+}
+
+.status-booked {
+  background: #16a34a;
+}
+
+.status-expired {
+  background: #dc2626;
+}
+
+.btn-book {
+  background: #16a34a;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  margin-right: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-delete {
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+.empty-row {
+  padding: 20px;
+  color: #6b7280;
+}
+/* Error Box */
+
+.error-box {
+  background: #fee2e2;
+  color: #991b1b;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  text-align: center;
+  border: 1px solid #fca5a5;
+}
